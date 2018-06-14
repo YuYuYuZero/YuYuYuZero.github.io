@@ -42,19 +42,18 @@
     <link href="http://yoursite.com/2017/08/01/git_guidance/"/>
     <id>http://yoursite.com/2017/08/01/git_guidance/</id>
     <published>2017-07-31T16:00:00.000Z</published>
-    <updated>2018-06-14T18:59:36.910Z</updated>
+    <updated>2018-06-14T19:03:18.709Z</updated>
     
-    <content type="html"><![CDATA[<p>##Git Guidance</p><ul><li>…or create a new repository on the command line</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"# Tetris"</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">"first commit"</span></span><br><span class="line">git remote add origin https://github.com/ZeroZsh/Tetris.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><ul><li>…or push an existing repository from the command line</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/ZeroZsh/Tetris.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><ul><li>…or import code from another repository</li></ul><blockquote><p>You can initialize this repository with code from a Subversion, Mercurial, or TFS project.</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<ul><li>…or create a new repository on the command line</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"# Tetris"</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">"first commit"</span></span><br><span class="line">git remote add origin https://github.com/ZeroZsh/Tetris.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><ul><li>…or push an existing repository from the command line</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/ZeroZsh/Tetris.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><ul><li>…or import code from another repository</li></ul><blockquote><p>You can initialize this repository with code from a Subversion, Mercurial, or TFS project.</p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;##Git Guidance&lt;/p&gt;
-&lt;ul&gt;
+        &lt;ul&gt;
 &lt;li&gt;…or create a new repository on the command line&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td clas
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span 
       
     
     </summary>
