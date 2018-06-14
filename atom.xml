@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YuYuYu&#39;s Blog</title>
   
-  
+  <subtitle>fish drowned</subtitle>
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Zero Zhang</name>
     
   </author>
   
@@ -39,8 +39,8 @@
   
   <entry>
     <title>Git Guidance</title>
-    <link href="http://yoursite.com/2017/08/01/git_guidance/"/>
-    <id>http://yoursite.com/2017/08/01/git_guidance/</id>
+    <link href="http://yoursite.com/2017/08/01/git/"/>
+    <id>http://yoursite.com/2017/08/01/git/</id>
     <published>2017-07-31T16:00:00.000Z</published>
     <updated>2018-06-14T19:03:18.709Z</updated>
     
