@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-14T07:22:11.899Z</updated>
+  <updated>2018-06-14T09:23:27.360Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/06/14/git_guidance/"/>
+    <id>http://yoursite.com/2018/06/14/git_guidance/</id>
+    <published>2018-06-14T09:24:08.341Z</published>
+    <updated>2018-06-14T09:23:27.360Z</updated>
+    
+    <content type="html"><![CDATA[<p>##git guidance</p><h3 id="…or-create-a-new-repository-on-the-command-line"><a href="#…or-create-a-new-repository-on-the-command-line" class="headerlink" title="…or create a new repository on the command line"></a>…or create a new repository on the command line</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"# Tetris"</span> &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m <span class="string">"first commit"</span></span><br><span class="line">git remote add origin https://github.com/ZeroZsh/Tetris.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><h3 id="…or-push-an-existing-repository-from-the-command-line"><a href="#…or-push-an-existing-repository-from-the-command-line" class="headerlink" title="…or push an existing repository from the command line"></a>…or push an existing repository from the command line</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/ZeroZsh/Tetris.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure><h3 id="…or-import-code-from-another-repository"><a href="#…or-import-code-from-another-repository" class="headerlink" title="…or import code from another repository"></a>…or import code from another repository</h3><p>You can initialize this repository with code from a Subversion, Mercurial, or TFS project.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;##git guidance&lt;/p&gt;
+&lt;h3 id=&quot;…or-create-a-new-repository-on-the-command-line&quot;&gt;&lt;a href=&quot;#…or-create-a-new-repository-on-the-command-line&quot; cl
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
