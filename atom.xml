@@ -6,7 +6,7 @@
   <link href="//atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-14T07:22:11.899Z</updated>
+  <updated>2018-06-15T05:36:45.442Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -18,18 +18,28 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2018/06/14/markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2018/06/14/markdown学习笔记/</id>
-    <published>2018-06-14T07:22:22.514Z</published>
-    <updated>2018-06-14T07:22:11.899Z</updated>
+    <link href="http://yoursite.com/2018/06/15/markdown%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2018/06/15/markdown笔记/</id>
+    <published>2018-06-15T05:37:25.159Z</published>
+    <updated>2018-06-15T05:36:45.442Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="markdown学习笔记"><a href="#markdown学习笔记" class="headerlink" title="markdown学习笔记"></a>markdown学习笔记</h1><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br></pre></td></tr></table></figure><p>（ 建议在井号后加一个空格，共有六级标题）</p><p>###列表<br>列表的显示只需要在文字前加上 - 或 * 即可变为无序列表，有序列表则直接在文字前加1. 2. 3. 符号要和文字之间加上一个字符的空格。</p><p>####无序链表<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">*  </span>1</span><br><span class="line"><span class="bullet">*  </span>2</span><br><span class="line"><span class="bullet">*  </span>3</span><br></pre></td></tr></table></figure></p><ul><li>1</li><li>2</li><li>3</li></ul><p>###引用<br>只需要在文本前加入 &gt; 这种尖括号（大于号）即可</p><blockquote><p>例如这样</p></blockquote><h3 id="图片与链接"><a href="#图片与链接" class="headerlink" title="图片与链接"></a>图片与链接</h3><p>图片为：<code>![]()</code></p><p>链接为：<code>[]()</code></p><p>插入图片的地址需要图床，即生成URL地址。</p><p>###粗体与斜体<br>用两个 <em> 包含一段文本就是粗体的语法，用一个 </em> 包含一段文本就是斜体的语法。</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">例如：<span class="strong">**这里是粗体**</span>，<span class="emphasis">*这里是斜体*</span></span><br></pre></td></tr></table></figure><p><strong>这里是粗体</strong>，<em>这里是斜体</em></p><p>###代码<br>在代码的前后都加一个“`”是行内代码(inline code)的写法</p><blockquote><p>如：<code>&lt;code&gt;</code></p></blockquote><p>块代码(block code)的写法：代码每一行的前面都加4个空格或一个tab</p><p>Fenced Code Block写法：第一行和最后一行都是3个 “ ` “，中间的行是代码，</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">​</span><br></pre></td></tr></table></figure><p><code><br>​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">###分割线</span><br><span class="line">三个*</span><br><span class="line"></span><br><span class="line">```markdown</span><br><span class="line">***</span><br></pre></td></tr></table></figure></code></p><hr>]]></content>
+    <content type="html"><![CDATA[<hr><p>title: markdown笔记</p><p>date: 2018-2-1</p><p>tags:</p><ul><li>markdown</li></ul><hr><ul><li><p>标题</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br></pre></td></tr></table></figure></li><li><p>粗体和斜体</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**粗体**</span></span><br></pre></td></tr></table></figure><p><strong>粗体</strong></p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">*斜体*</span></span><br></pre></td></tr></table></figure><p><em>斜体</em></p></li></ul><ul><li><p>引用</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 引用</span></span><br></pre></td></tr></table></figure><blockquote><p>引用</p></blockquote></li></ul><ul><li><p>图片和链接</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">图片</span>](<span class="link"></span>)</span><br></pre></td></tr></table></figure><p><img src="" alt="图片"></p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">链接</span>](<span class="link"></span>)</span><br></pre></td></tr></table></figure><p><a href="">链接</a></p></li></ul><ul><li><p>行内代码和块代码</p><p><code>行内代码</code></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">块代码</span><br></pre></td></tr></table></figure></li><li><p>分隔线</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="emphasis">***</span></span><br></pre></td></tr></table></figure><hr><p>​</p></li><li><p>index</p><ul><li><p>无序</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">- </span>1 * 1 </span><br><span class="line"><span class="bullet">- </span>2 * 2 </span><br><span class="line"><span class="bullet">- </span>3 * 3</span><br></pre></td></tr></table></figure><ul><li>1</li><li>2</li><li>3</li></ul></li><li><p>有序</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1. </span>2</span><br><span class="line"><span class="bullet">2. </span>3 </span><br><span class="line"><span class="bullet">3. </span>3</span><br></pre></td></tr></table></figure><ol><li>2</li><li>3 </li><li>3</li></ol></li></ul></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;markdown学习笔记&quot;&gt;&lt;a href=&quot;#markdown学习笔记&quot; class=&quot;headerlink&quot; title=&quot;markdown学习笔记&quot;&gt;&lt;/a&gt;markdown学习笔记&lt;/h1&gt;&lt;h2 id=&quot;基本语法&quot;&gt;&lt;a href=&quot;#基本语法&quot; cla
+        &lt;hr&gt;
+&lt;p&gt;title: markdown笔记&lt;/p&gt;
+&lt;p&gt;date: 2018-2-1&lt;/p&gt;
+&lt;p&gt;tags:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;markdown&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;标题&lt;/p&gt;
+&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=
       
     
     </summary>
