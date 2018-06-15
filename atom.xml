@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-15T06:35:33.097Z</updated>
+  <updated>2018-06-15T14:24:46.360Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/06/01/tmux%20notes/"/>
+    <id>http://yoursite.com/2018/06/01/tmux notes/</id>
+    <published>2018-05-31T16:00:00.000Z</published>
+    <updated>2018-06-15T14:24:46.360Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">tmux new -s foo <span class="comment"># 新建名称为 foo 的会话</span></span><br><span class="line">tmux ls <span class="comment"># 列出所有 tmux 会话</span></span><br><span class="line">tmux a <span class="comment"># 恢复至上一次的会话</span></span><br><span class="line">tmux a -t foo <span class="comment"># 恢复名称为 foo 的会话，会话默认名称为数字</span></span><br><span class="line">tmux <span class="built_in">kill</span>-session -t foo <span class="comment"># 删除名称为 foo 的会话</span></span><br><span class="line">tmux <span class="built_in">kill</span>-server <span class="comment"># 删除所有的会话</span></span><br></pre></td></tr></table></figure><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;tmux new -s foo &lt;span class=&quot;comment&quot;&gt;# 新建名称为 foo 的会话&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tmux ls &lt;span class=&quot;comment&quot;&gt;# 列出所有 tmux 会话&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tmux a &lt;span class=&quot;comment&quot;&gt;# 恢复至上一次的会话&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tmux a -t foo &lt;span class=&quot;comment&quot;&gt;# 恢复名称为 foo 的会话，会话默认名称为数字&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tmux &lt;span class=&quot;built_in&quot;&gt;kill&lt;/span&gt;-session -t foo &lt;span class=&quot;comment&quot;&gt;# 删除名称为 foo 的会话&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;tmux &lt;span class=&quot;built_in&quot;&gt;kill&lt;/span&gt;-server &lt;span class=&quot;comment&quot;&gt;# 删除所有的会话&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="bash" scheme="http://yoursite.com/tags/bash/"/>
+    
+      <category term="tools" scheme="http://yoursite.com/tags/tools/"/>
+    
+  </entry>
   
   <entry>
     <title>markdown notes</title>
