@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-15T14:24:46.360Z</updated>
+  <updated>2018-06-15T14:30:19.006Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>tmux notes</title>
     <link href="http://yoursite.com/2018/06/01/tmux%20notes/"/>
     <id>http://yoursite.com/2018/06/01/tmux notes/</id>
     <published>2018-05-31T16:00:00.000Z</published>
-    <updated>2018-06-15T14:24:46.360Z</updated>
+    <updated>2018-06-15T14:30:19.006Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">tmux new -s foo <span class="comment"># 新建名称为 foo 的会话</span></span><br><span class="line">tmux ls <span class="comment"># 列出所有 tmux 会话</span></span><br><span class="line">tmux a <span class="comment"># 恢复至上一次的会话</span></span><br><span class="line">tmux a -t foo <span class="comment"># 恢复名称为 foo 的会话，会话默认名称为数字</span></span><br><span class="line">tmux <span class="built_in">kill</span>-session -t foo <span class="comment"># 删除名称为 foo 的会话</span></span><br><span class="line">tmux <span class="built_in">kill</span>-server <span class="comment"># 删除所有的会话</span></span><br></pre></td></tr></table></figure><a id="more"></a>]]></content>
     
